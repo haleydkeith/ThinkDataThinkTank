@@ -1,13 +1,13 @@
 //main file to connect all routes used in routes folder. passed to server.ts
 
-import { Router } from 'express';
-import searchRouter from './search';
-import landingRouter from './landing';
+//import { Router } from 'express';
+//import searchRouter from './search';
+//import landingRouter from './landing';
 
-const router = Router(); 
+//const router = Router(); 
 
-router.use('/search', searchRouter);
-router.use('/auth', landingRouter)
+//router.use('/search', searchRouter);
+//router.use('/auth', landingRouter)
 
 
 
